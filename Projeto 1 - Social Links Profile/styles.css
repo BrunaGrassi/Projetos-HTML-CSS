@@ -20,14 +20,20 @@ body {
 }
 
 a {
-    margin: 10px;
-    padding: 20px 100%;
+    width: 100%;
+    padding: 20px 230px 20px 250px;
+    font-size: 25px;
+    margin: 15px;
     text-decoration: none;
     color: white;
     background-color: hsl(0, 0%, 20%);
+    border-radius: 20px;
+    box-sizing: border-box;
 } 
 
 div {
+    min-width: 300px;
+    max-width: 1000px;
     margin: 7px;
     display: flex;
     flex-direction: column;
@@ -35,29 +41,48 @@ div {
 }
 
 img {
-    margin-bottom: 30px;
-    min-width: 130px;
-    max-width: 130px;
+    margin-bottom: 50px;
+    min-width: 200px;
+    max-width: 200px;
     border-radius: 50%;
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 500;
     line-height: 50px;
     letter-spacing: 1px;
     
 }
 
+h2 {
+    font-size: 25px;
+    color: hsl(75, 94%, 57%);
+    margin: 10px 0 40px 0;
+}
+
+p {
+    font-size: 25px;
+}
+
 
 .card {
     margin: 10%;
-    padding: 60px;
-    min-width: 500px;
-    max-width: 500px;
+    padding: 0 60px;
+    min-width: 700px;
+    max-width: 700px;
+    min-height: 1200px;
+    max-height: 1200px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     background-color: hsl(0, 0%, 12%);
+    border-radius: 25px;
+}
+
+.botoes {
+    margin: 40px 10px 20px 10px;
+    min-width: 500px;
+    max-width: 900px;
 }
